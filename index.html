@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca Kursawe Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@300;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <button id="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="hero-wrapper">
+        <div class="hero">
+            <h1>Luca Kursawe</h1>
+            <p>Creating stuff that not only works, but looks good</p>
+        </div>
+
+        <nav>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#photography">Photography</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>About</h2>
+            <p>I am a Computer Science student at Rheinische Hochschule Köln, passionate about creating functional and
+                visually
+                appealing technology. Currently, I work as an Assistant Coordinator for E-Learning and Technical Support
+                at RST Gruppe
+                Schnirch, where I manage digital training systems and develop interactive training materials. I also
+                have experience in
+                e-commerce, contributing to website optimization and data analysis for business insights.</p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Informatik B.Sc.</h3>
+                        <h4>Rheinische Hochschule Köln</h4>
+                        <p class="timeline-date">2023 - Present</p>
+                        <ul>
+                            <li>Currently in my 4th semester</li>
+                            <li>Expected graduation in 2026</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Assistant Coordinator for E-Learning and Technical Support</h3>
+                        <h4>RST Gruppe Schnirch</h4>
+                        <p class="timeline-date">2021 - Present</p>
+                        <ul>
+                            <li>Implemented digital training and testing systems with external providers</li>
+                            <li>Developed interactive learning materials for intralogistics</li>
+                            <li>Optimized digital tools and workflows for better efficiency</li>
+                            <li>Enhanced company website and marketing materials with WordPress & Adobe CC</li>
+                            <li>Facilitated e-commerce process coordination</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>Portfolio Website</h3>
+                    <p>What you are currently looking at. You can also look at the source code on Github</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <a href="https://github.com/lucakursawe/portfolio" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View Source
+                    </a>
+                </div>
+                <div class="project-item">
+                    <h3>REP.js</h3>
+                    <p>Powerlifting Web Application that tracks one-rep-max calculations and visualizes said data </p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>Chart.js</span>
+                        <span>Framer Motion</span>
+                        <span>Supabase</span>
+                    </div>
+                    <a href="https://github.com/lucakursawe/photo-portfolio" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View Source
+                    </a>
+                </div>
+                <div class="project-item">
+                    <h3>" "</h3>
+                    <p>New project is being published soon!</p>
+                    <div class="project-tech">
+                        <span>Mystery</span>
+                        <span>Mystery</span>
+                        <span>Mystery</span>
+                    </div>
+                    <a href="https://github.com/lucakursawe" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View Source
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>MySQL</li>
+                        <li>Java Basics</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Lightroom</li>
+                        <li>Adobe InDesign</li>
+                        <li>Adobe Premiere Pro</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="photography" class="photography">
+            <h2>Photography</h2>
+            <div class="photo-grid">
+                <div class="photo-item"><img src="images/unsplash/image3.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image7.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image3.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image1.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image5.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image6.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image2.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image8.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image9.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image10.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image11.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image12.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image13.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image14.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+                <div class="photo-item"><img src="images/unsplash/image15.jpg" alt="Luca Kursawe Photography"
+                        loading="lazy"></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get in contact with me</h2>
+            <div class="contact-icons">
+                <a href="https://github.com/lucakursawe" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lucakursawe/" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://xing.com/lucakursawe" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-xing"></i>
+                </a>
+                <a href="https://unsplash.com/@lucakursawe" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-camera"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
